@@ -1,11 +1,62 @@
 
-/* BACKGROUND-COLOR-BODY */
-body{
+/*BODY */
+.wrapper{
   background-color:cadetblue ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-ep{
+  width: 60%;
+  height: 60%;
+  background-color: rebeccapurple;
 }
 
 /* IMAGES */
 
-.hide{
-  
+.images{
+  width: 100%;
+}
+
+.group-images{
+  width: 70%;
+}
+
+.canva-images{
+  width: 30%;
+  position: relative;
+}
+
+.hiden{
+  visibility: hidden;
+  width: 40%;
+}
+
+/* BUTTONS */
+
+.btn-arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  background-color:rgba(255, 255, 255, 0.6);
+}
+
+.top{
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.down{
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
 }
