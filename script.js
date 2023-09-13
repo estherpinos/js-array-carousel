@@ -1,5 +1,5 @@
 
-const slides= document.querySelector('.slides');
+const slides= document.querySelector('.images');
 const btnTop = document.querySelector('.top');
 const btnDown = document.querySelector('.down');
 
